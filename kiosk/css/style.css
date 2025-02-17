@@ -1,0 +1,15 @@
+/* Scrollbar */
+/* Custom Tailwind Scrollbar */
+.scrollbar::-webkit-scrollbar {
+    width: 7px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #6B7280;
+    border-radius: 10px;
+}
