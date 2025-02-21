@@ -1,0 +1,173 @@
+/* MOBILE */
+
+/* IPhone SE */
+@media screen and (width: 375px) and (height: 667px) {
+}
+
+/* IPhone XR */
+@media screen and (width: 414px) and (height: 896px) {
+
+    .payment-card .card {
+        height: 13vh !important;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+    
+/* IPhone 12 Pro */
+@media screen and (width: 390px) and (height: 844px) {
+
+    .payment-card .card {
+        height: 13vh !important;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+    
+/* IPhone 14 Pro Max */
+@media screen and (width: 430px) and (height: 932px) {
+
+    .payment-card .card {
+        height: 13vh !important;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+
+/* Pixel 7 */
+@media screen and (width: 412px) and (height: 915px) {
+
+    .payment-card .card {
+        height: 13vh !important;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+
+/* Samsung G S8 */
+@media screen and (width: 360px) and (height: 740px) {
+
+    .payment-card .card {
+        height: 17vh !important;
+    }
+
+    .payment-card .card-img  {
+        width: 70%;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+
+/* iPad Mini */
+@media screen and (width: 768px) and (height: 1024px) {
+
+    .payment-card .card {
+        height: 12vh !important;
+    }
+
+    .payment-card .payment-title {
+        font-size: 120%;
+    }
+}
+
+/* iPad Air */
+@media screen and (width: 820px) and (height: 1180px) {
+    
+    .payment-card .card {
+        height: 11vh !important;
+    }
+}
+
+/* iPad Pro */
+@media screen and (width: 1024px) and (height: 1366px) {
+    
+    .payment-card .card {
+        height: 10vh !important;
+    }
+
+    /* .payment-card .payment-title {
+        font-size: 120%;
+    } */
+}
+
+/* Surface Pro 7 */
+@media screen and (width: 912px) and (height: 1368px) {
+
+    .payment-card .card {
+        height: 10vh !important;
+    }
+}
+
+/* Surface Duo */
+@media screen and (width: 540px) and (height: 720px) {
+
+    .payment-card .card {
+        height: 16vh !important;
+    }
+
+    .payment-card .card-img {
+        width: 35% !important;
+    }
+
+    .payment-card .card-img img {
+        padding: 6% !important;
+    }
+
+}
+
+/* Galaxy Z Fold 5 */
+@media screen and (width: 344px) and (height: 882px) {
+
+    .payment-card .card {
+        height: 15vh !important;
+    }
+
+    .payment-card .card-img {
+        width: 70% !important;
+    }
+
+    .payment-card .card-img img {
+        padding: 4% !important;
+    }
+
+}
+
+/* iPad Pro */
+@media screen and (width: 853px) and (height: 1280px) {
+
+    .payment-card .card {
+        height: 10vh !important;
+    }
+}
+
+/* Samsung G A51/71 */
+@media screen and (width: 412px) and (height: 914px) {
+
+    .payment-card .card {
+        height: 12vh !important;
+    }
+}
+
+/* Nest Hub */
+@media screen and (width: 1024px) and (height: 600px) {
+
+    .payment-card .card {
+        height: 25vh !important;
+    }
+}
+
+/* Nest Hub Max*/
+@media screen and (width: 1280px) and (height: 800px) {
+
+
+}
