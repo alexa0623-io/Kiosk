@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">   
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="roboto w-[100%] h-[100vh] flex">
+        <div class="w-[24%] md:w-[28%] xl:w-[22%] h-[100vh] bg-white border-r">
+            <p class="hidden lg:block text-center text-[150%] xl:text-[160%] 2xl:text-[230%] font-bold tracking-[.2rem] px-[10%] py-[10%]">MENU CATEGORY</p>
+            <p class="block lg:hidden text-center text-[125%] sm:text-[150%] xl:text-[160%] 2xl:text-[220%] font-bold tracking-[.2rem] px-[10%] p-[20%]">MENU</p>
+            <div class="w-full flex flex-col items-center space-y-[25%] sm:space-y-[15%] lg:space-y-[3%] mt-10 xl:mt-5">
+                <button class="w-full md:w-[75%] lg:w-[65%] xl:w-[60%] 2xl:w-[50%] lg:rounded-[20%] hover:shadow-md py-[12%] xl:py-[10%] hover:uppercase hover:text-white hover:bg-[#F23838] flex flex-col items-center justify-center space-y-[4%] group">
+                    <div class="w-[65%] md:w-[70%] lg:w-[60%] xl:w-[55%]">
+                        <img src="img/starter-b.png" class="w-full group-hover:hidden">
+                        <img src="img/starter-w.png" class="w-full hidden group-hover:block">
+                    </div>
+                    <div>
+                        <p class="text-[95%] sm:text-[100%] md:text-[105%] lg:text-[110%] xl:text-[120%] tracking-[.1rem] font-medium">Starter</p>
+                    </div>
+                </button>
+                <button class="w-full md:w-[75%] lg:w-[65%] xl:w-[60%] 2xl:w-[50%] lg:rounded-[20%] hover:shadow-md py-[12%] xl:py-[10%] hover:uppercase hover:text-white hover:bg-[#F23838] flex flex-col items-center justify-center space-y-[4%] group">
+                    <div class="w-[65%] md:w-[70%] lg:w-[60%] xl:w-[55%]">
+                        <img src="img/burger-b.png" class="w-full group-hover:hidden">
+                        <img src="img/burger-w.png" class="w-full hidden group-hover:block">
+                    </div>
+                    <div>
+                        <p class="text-[95%] sm:text-[100%] md:text-[105%] lg:text-[110%] xl:text-[120%] tracking-[.1rem] font-medium">Burger</p>
+                    </div>
+                </button>
+                <button class="w-full md:w-[75%] lg:w-[65%] xl:w-[60%] 2xl:w-[50%] lg:rounded-[20%] hover:shadow-md py-[12%] xl:py-[10%] hover:uppercase hover:text-white hover:bg-[#F23838] flex flex-col items-center justify-center space-y-[4%] group">
+                    <div class="w-[65%] md:w-[70%] lg:w-[60%] xl:w-[55%]">
+                        <img src="img/drink-b.png" class="w-full group-hover:hidden">
+                        <img src="img/drink-w.png" class="w-full hidden group-hover:block">
+                    </div>
+                    <div>
+                        <p class="text-[95%] sm:text-[100%] md:text-[105%] lg:text-[110%] xl:text-[120%] tracking-[.1rem] font-medium">Drinks</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="w-full h-[100vh] justify-between">
+            <div class="flex flex-col h-full max-h-[562px] sm:max-h-[578px] md:max-h-[571px] lg:max-h-[645px] 2xl:max-h-[758px] overflow-y-auto bg-[#F6F6F6] px-[4%] lg:px-[3%] ">
+                <div class="w-full pt-4 pb-2 sm:pb-2 sm:py-4 md:pb-2 md:pt-5 lg:py-5 lg:pb-3">
+                    
+                    <div class="w-full h-full flex justify-end items-center gap-5">
+                        <div class="relative inline-block">
+                            <button id="dropdownButton" class="hover:text-red-800 rounded-lg">
+                                <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
+                                    <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
+                                </svg>                                
+                            </button>
+
+                            <div id="dropdownMenu" class="absolute right-0 mt-0 w-36 2xl:w-48 tracking-[.1rem] bg-white rounded-lg shadow-md hidden">
+                                <a href="javascript:void(0);" onclick="showLogoutModal()" class="block w-full text-left px-4 py-2 hover:text-red-500 rounded-lg">Logout</a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div id="logout-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-gray-800 bg-opacity-50 mt-[-5%]">
+                                <div class="bg-white p-6 rounded-lg shadow-lg w-[90%] sm:w-[75%] md:w-[70%] lg:w-[50%] xl:w-[45%] 2xl:w-[30%] tracking-[1px]">
+                                    <div class="flex items-center gap-3">
+                                        <div class="rounded-full text-[80%] text-white bg-red-600 px-[2%] 2xl:px-[2.1%] py-[.5%]">
+                                            <i class="fa-solid fa-info"></i>
+                                        </div>
+                                        <h1 class="text-[130%] font-medium">You are about to log out</h1>
+                                    </div>
+                                    <p class="text-[105%] 2xl:text-[110%] lg:pr-10 my-10">Are you sure you want to log out? This action will end your session.</p>
+                                    <div class="flex justify-end items-center space-x-4 text-[95%]">
+                                        <a href="sign-in.html" class="text-white bg-red-600 hover:bg-red-700 font-medium py-2 px-4 rounded-lg">
+                                            Confirm Logout
+                                        </a>
+                                        <button type="button" class="text-red-600 bg-transparent border border-red-600 hover:bg-red-600 hover:text-white font-medium py-2 px-4 rounded-lg" onclick="dismissModal()">
+                                            Cancel
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-full">
+                    <div class="pb-[5%] md:pb-[4%] lg:pb-[4%] xl:pb-[3%] 2xl:pb-[2%]">
+                        <div class="cards-container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5 md:gap-5 lg:gap-5 xl:gap-6 2xl:gap-7">
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-white shadow-sm border border-[#F2F2F2] rounded-[10%]">
+                                <div class="h-[12vh] sm:h-[15vh] md:h-[17vh] lg:h-[18vh] xl:h-[20vh] 2xl:h-[17vh] flex justify-center p-[8%] sm:p-[8%] md:p-[7%] lg:p-[10%] xl:p-[13%] 2xl:p-[4%] xl:-mt-2 2xl:mt-2">
+                                    <img src="img/burger.png" alt="Card Image" class="h-full object-cover">
+                                </div>
+                                <div class="-mt-1 md:-mt-2 lg:-mt-3 xl:mt-0">
+                                    <div class="px-[10%]">
+                                        <div class="gap-2 tracking-[.1rem]">
+                                            <p class="text-[105%] sm:text-[120%] md:text-[130%] lg:text-[125%] 2xl:text-[145%] font-medium">Kabayan Burger</p>
+                                            <p class="text-[95%] sm:text-[100%] text-gray-600">Regular</p>
+                                        </div>
+                                        <div class="flex items-end text-[105%] sm:text-[120%] md:text-[125%] 2xl:text-[145%] font-medium gap-[1%] mt-[6%] lg:mt-[4%]">
+                                            <p class="text-[#EF3B48]">₱</p>
+                                            <p class="">50.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-end flex justify-end mt-[-18%] sm:mt-[-16%] md:mt-[-14%] lg:mt-[-12%] xl:mt-[-16%] 2xl:mt-[-12%] top-[5.2px] 2xl:top-1 left-[.2%]">
+                                        <!-- Plus Gray bg -->
+                                        <h1 class="bg-[#F6F6F6] p-[14%] sm:p-[12%] md:p-[11%] lg:p-[11.2%] xl:p-[12.2%] 2xl:p-[10%] rounded-tl-[30%]"></h1>
+                                        
+                                        <!-- Plus Modal -->
+                                        <button data-modal-toggle="modal-burger" class="block absolute top-[12%] xl:top-[15%] right-0 bg-[#F23838] hover:bg-[#DA3232] rounded-[25%]" type="button">
+                                            <i class="fa-solid fa-plus px-[13px] sm:px-[15.5px] md:px-[17px] lg:px-[16px] xl:px-[14px] 2xl:px-[19px] py-[25%] sm:py-[28%] md:py-[30%] xl:py-[10.2px] 2xl:py-[16px] text-[110%] xl:text-[140%] text-white"></i>
+                                        </button>
+                                        
+                                        <!-- Main modal -->
+                                        <div id="modal-burger" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-full">
+                                            <div class="relative p-2 px-5 w-full sm:w-[95%] md:w-[100%] lg:w-[90%] xl:w-[80%] 2xl:w-[60%] h-[auto]">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow-sm">
+                                                    <!-- Modal header -->
+                                                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white py-[.8%] px-[1.2%] m-2" data-modal-hide="modal-burger">
+                                                        <i class="fa-solid fa-xmark text-[180%]"></i>
+                                                    </button>
+        
+                                                    <!-- Modal body -->
+                                                    <div class="mt-[-6%] xl:mt-[-5%]">
+                                                        <div class="w-[100%] flex flex-col md:flex-row gap-[3%] 2xl:gap-[5%] p-[4%]">
+                                                            <div class="w-full flex justify-center items-center bg-red-50 rounded-lg">
+                                                                <img src="img/burger.png" alt="Card Image" class="w-[40%] md:w-full p-2 md:p-2 lg:p-5">
+                                                            </div>
+                                                            <div class="w-full mt-5 md:mt-0">
+                                                                <div class="w-full text-left">
+                                                                    <div class="tracking-[.1rem]">
+                                                                        <p class="text-[140%] sm:text-[160%] md:text-[170%] lg:text-[200%] 2xl:text-[220%] font-medium">Kabayan Cheese Burger</p>
+                                                                        <p class="text-[150%] md:text-[150%] xl:text-[150%] 2xl:text-[170%] text-[#F23838] font-medium pt-[%] pb-[2%]">₱50</p>
+                                                                        <hr class="">
+                                                    
+                                                                        <p class="sm:text-[110%] md:text-[110%] xl:text-[105%] 2xl:text-[110%] py-[3%]">Lorem ipsum dolor sit amet. Non deleniti velit sit nihil culpa est quasi voluptatum. Sed nesciunt reiciendis et culpa reiciendis ad eligendi harum est galisum animi aut obcaecati iste. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex items-center text-lg gap-[4%]">
+                                                                    <button class="minus-btn text-[80%] bg-[#F3F3F3] rounded-md px-[3%] py-[1%]" aria-label="Decrease">
+                                                                        <i class="fa-solid fa-minus"></i>
+                                                                    </button>
+                                                                    <p class="quantity font-medium text-lg">1</p>
+                                                                    <button class="plus-btn text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-[3%] py-[1%]" aria-label="Increase">
+                                                                        <i class="fa-solid fa-plus"></i>    
+                                                                    </button>
+                                                                </div>
+                                                                <div class="w-full flex justify-between font-medium m-0 px-[3%] rounded-lg bg-white shadow-md my-4">
+                                                                    <p class="text-[120%]">TOTAL:</p>
+                                                                    <p class="text-end text-[300%]">0</p>
+                                                                </div>
+                                                                <button class="w-full xl:text-[110%] 2xl:text-[120%] text-white font-medium text-center rounded-lg bg-[#F23838] hover:bg-[#DA3232]">  
+                                                                    <p class="py-[2.5%]">ADD TO CART</p>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHECKOUT -->
+            <div class="w-[100%] h-[32vh] sm:h-[30vh] md:h-[31vh] lg:h-[22vh] bg-[#E9E9E9] border-t border-gray-200">
+                <div class="w-full h-full flex flex-col lg:flex-row py-3 sm:py-4 md:p-5 px-[4%] lg:px-[3%] gap-3 sm:space-y-[-6%] md:space-y-[-6%] lg:space-y-0 md:gap-5 text-[100%] sm:text-[105%] lg:text-[120%] font-medium tracking-[.2rem]">
+                    <div class="w-full h-full flex flex-col sm:flex-row gap-2 sm:gap-4">
+                        <div class="w-full lg:w-[55%] sm:h-[10.4vh] lg:h-full flex sm:flex-col justify-between items-center sm:items-stretch px-3 py-2 sm:pt-2 lg:p-4 2xl:p-5 bg-white rounded-lg shadow-md">
+                            <p># OF ITEMS:</p>
+                            <p class="text-[160%] sm:text-[200%] lg:text-[300%] text-end lg:pt-4 2xl:pt-10">0</p>
+                        </div>
+                        <div class="w-full lg:w-[55%] sm:h-[10.4vh] lg:h-full flex sm:flex-col justify-between items-center sm:items-stretch px-3 py-2 sm:pt-2 lg:p-4 2xl:p-5 bg-white rounded-lg shadow-md">
+                            <p>TOTAL AMOUNT:</p>
+                            <p class="text-[160%] sm:text-[200%] lg:text-[300%] text-end lg:pt-4 2xl:pt-10">0</p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-[50%] h-full flex flex-col text-[95%] xl:text-[100%] space-y-2 md:space-y-3">
+                        <button data-modal-toggle="checkout" class="w-full h-full bg-[#F23838] hover:bg-[#DA3232] text-white rounded-lg shadow-md" type="button">
+                            <p>CHECKOUT</p>
+                        </button>
+                        <button class="w-full h-full hover:text-white bg-white hover:bg-gray-500 rounded-lg shadow-md">
+                            CANCEL
+                        </button>
+                    </div>
+
+                    <!-- Checkout modal -->
+                    <div id="checkout" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden fixed top-[-.5%] 2xl:top-[-2%] right-0 left-0 z-50 justify-center items-center w-full h-full">
+                        <div class="relative p-2 px-5 w-[98%] sm:w-[95%] md:w-[90%] lg:w-[70%] 2xl:w-[40%] h-[auto]">
+                            
+                            <!-- Modal content -->
+                            <div class="relative bg-[#F1F3F4] rounded-lg shadow-sm">
+
+                                <!-- Modal body -->
+                                <div class="p-6 space-y-3">
+                                    <div class="scrollbar bg-white p-5 space-y-5 rounded-lg shadow max-h-[540px] 2xl:max-h-[600px] overflow-y-auto">
+                                        <div class="w-[100%] h-[auto] flex justify-center items-center gap-[4%]">
+                                            <div class="w-[30%] lg:w-[25%] h-[11vh] lg:h-[14%] 2xl:h-[11vh] flex justify-center items-center bg-[#EDF1F2] rounded-md">
+                                                <img src="img/burger.png" class="w-full p-2 lg:p-3 2xl:p-[6%]">
+                                            </div>
+                                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[2%] px-[1%]">
+                                                <div class="w-full flex flex-col justify-center item tracking-[.2rem] mt-[-1%]">
+                                                    <p class="text-[110%] sm:text-[120%] font-medium">Kabayan Cheese Burger</p>
+                                                    <p class="text-[95%] sm:text-[100%] text-[#797979] font-normal mt-[.5%] 2xl:mt-[-1%]">₱50</p>
+                                                </div>
+                                                <div class="w-full flex justify-between ">
+                                                    <div class="w-full flex items-center text-[70%] gap-[3%]">
+                                                        <button class="minus-btn bg-gray-200 hover:bg-gray-300 rounded-md pl-3 pr-2 p-1 2xl:pl-[2.8%] 2xl:px-[2.1%] 2xl:pb-[1.2%] 2xl:pt-[.7%]" aria-label="Decrease">
+                                                            <i class="fa-solid fa-minus"></i>
+                                                        </button>
+                                                        <p class="quantity font-medium text-[125%]">1</p>
+                                                        <button class="plus-btn text-white bg-[#EF3B48] hover:bg-[#DA3232] rounded-md pl-2.5 pr-2 p-1 2xl:pl-[2.8%] 2xl:px-[2.1%] 2xl:pb-[1.2%] 2xl:pt-[.7%]" aria-label="Increase">
+                                                            <i class="fa-solid fa-plus"></i>    
+                                                        </button>
+                                                    </div>
+                                                    <button class="text-gray-500 hover:text-gray-700">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="border-1 border-[#F7F7F7]">
+                                    </div>
+
+                                    <div class="flex flex-col space-y-2 p-4 text-[95%] font-medium tracking-[.2rem] bg-white rounded-lg shadow-md">
+                                        <a href="payment.html" class="w-full text-white text-center bg-[#EF3B48] hover:bg-[#DA3232] rounded-lg shadow-sm py-4" type="button">
+                                            <p>PROCEED PAYMENT</p>
+                                        </a>
+
+                                        <button type="button" class="w-full text-center bg-gray-300 hover:bg-gray-500 hover:text-white rounded-lg shadow-sm py-4" data-modal-hide="checkout">
+                                            <p>CANCEL</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    
+    <script src="js/modal.js"></script>
+    <script src="js/quantity.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+</html>

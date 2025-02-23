@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.css">   
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <div class="roboto w-[100%] h-[100vh]">
+        <div class="w-full h-full flex">
+            <div class="w-full flex flex-col border-r text-gray-700 border-r-2 border-[#CB2D2D]">
+                <div class="h-[60vh] cards-container grid grid-cols-3 text-[250%] font-medium tracking-[.2rem] bg-white p-8 py-12 gap-7">
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>50</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>100</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>200</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>500</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>1,000</p>
+                    </button>
+                </div>
+                <div class="h-full flex flex-col p-8 space-y-8 bg-[#E8E8E8]">
+                    <form action="" class="w-full h-[20%] text-[160%] tracking-[.2rem]">
+                        <input type="number" class="w-full h-full p-5 border-[.5%] border-gray-800 shadow rounded-lg" placeholder="input">
+                    </form>
+                    <div class="w-full h-full flex font-medium tracking-[.2rem] gap-4">
+                        <div class="w-full flex flex-col gap-4">
+                            <div class="w-full h-full cards-container grid grid-cols-3 text-[250%] gap-5">
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>1</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>2</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>3</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>4</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>5</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>6</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>7</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>8</p>
+                                </button>
+                                <button type="button" class="card flex justify-center items-center bg-white border-[.8%] border-gray-800 shadow rounded-lg">
+                                    <p>9</p>
+                                </button>
+                            </div>
+                            <div class="w-full h-[12vh] flex text-[250%] gap-5">
+                                <button type="button" class="card w-full flex justify-center items-center bg-white border-1 border-gray-800 shadow rounded-lg">
+                                    <p>0</p>
+                                </button>
+                                <button type="button" class="card w-[48%] flex justify-center items-center bg-white border-1 border-gray-800 shadow rounded-lg">
+                                    <p>.</p>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-[15%] h-full flex flex-col text-[150%] gap-5">
+                            <button type="button" class="h-[13.6vh] card flex justify-center items-center bg-white border-1 border-gray-800 shadow rounded-lg">
+                                <p>DEL</p>
+                            </but0ton>
+                            <button type="button" class="h-full card flex justify-center items-center bg-white border-1 border-gray-800 shadow rounded-lg">
+                                <p>ENTER</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="w-full h-full flex flex-col p-10 space-y-10 border-r bg-[#F6F6F6]">
+                <div class="w-full h-full cards-container grid grid-cols-3 text-[250%] font-medium tracking-[.2rem] gap-10">
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>50</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>100</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>20</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>500</p>
+                    </button>
+                    <button type="button" class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                        <p>1,000</p>
+                    </button>
+                </div>
+                <div class="w-full h-[100vh] flex flex-col">
+                    <div class="w-full bg-blue-300">
+                        <form action="" class="">
+                            <input type="number" class="w-full  text-[200%] p-5 rounded-lg border border-red-500">
+                            <button></button>
+                        </form>
+                    </div>
+                    <div class="w-full h-full bg-red-100">
+
+                    </div>
+                </div>
+            </div> -->
+            <div class="w-[80%] h-full bg-[#EAEAEA]">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="w-[100%] h-[100vh] text-[#242424] bg-[#ffff]">
+        <div class="w-full h-full p-[2%] space-y-[2%]">
+            <div class="roboto w-full h-full flex flex-col xl:flex-row gap-[2%] 2xl:gap-[3%]">
+                <div class="payment-card w-full h-full rounded-md bg-gray-200 shadow p-3 xl:p-4 2xl:p-8 max-h-full overflow-y-auto">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 w-full gap-3 xl:gap-4 2xl:gap-6">
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/burger.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[140%] font-medium leading-[110%] lg:leading-[120%]">Kabayan Burger</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-full h-[15vh] sm:h-[16vh] md:h-[16vh] lg:h-[15vh] 2xl:h-[15vh] flex gap-[4%] p-[2%] px-[3%] rounded-md bg-white shadow-sm">
+                            <div class="card-img w-[50%] sm:w-[70%] md:w-[60%] lg:w-[50%] 2xl:w-[35%] flex justify-center items-center bg-gray-100 rounded-md">
+                                <img src="img/noodles.png" class="w-full p-2 sm:p-1 md:p-1 lg:p-2 xl:p-[2%] 2xl:p-[6%]">
+                            </div>
+                            <div class="w-full h-full flex flex-col justify-center items-center space-y-[3%] px-[1%] mt-[]">
+                                <div class="w-full flex flex-col justify-center item tracking-[.2rem]">
+                                    <p class="payment-title text-[120%] sm:text-[125%] lg:text-[135%] xl:text-[135%] 2xl:text-[145%] font-medium leading-[110%] lg:leading-[120%]">Batangas Lomi</p>
+                                    <p class="payment-subtitle text-[108%] sm:text-[110%] lg:text-[120%] xl:text-[120%] 2xl:text-[125%] text-[#797979] mt-[1%] md:mt-0">₱50</p>
+                                </div>
+                                <div class="w-full flex items-center text-lg gap-[7%] lg:gap-[5%] pt-1">
+                                    <button class="minus-btn text-[70%] xl:text-[80%] bg-[#F3F3F3] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Decrease">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <p class="quantity font-medium text-[95%] xl:text-lg">1</p>
+                                    <button class="plus-btn text-[65%] xl:text-[80%] text-white bg-[#F23838] hover:bg-[#DA3232] rounded-md px-3 lg:px-[4%] xl:px-[5%] 2xl:px-[4%] xl:px-[0] lg:py-[.2%] 2xl:py-[1%]" aria-label="Increase">
+                                        <i class="fa-solid fa-plus"></i>    
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden xl:block w-full xl:w-[40%] 2xl:w-[45%] h-full tracking-[.2rem]">
+                    <div class="w-full h-full flex items-end">
+                        <div class="w-full flex flex-col justify-end font-semibold space-y-5 bg-gray-200 p-3 xl:p-4 2xl:p-6 rounded-md shadow-md">
+                            <div class="w-full flex flex-col space-y-5 px-8 py-8 font-semibold tracking-[.2rem] bg-white rounded-lg shadow-md">
+                                <div class="flex flex-col justify-center">
+                                    <p class="font-bold text-[160%]">TOTAL:</p>
+                                    <p class="text-[350%] text-end font-semibold text-[#EF3B48]">10</p>
+                                </div>
+                                <hr>
+                                <div class="text-[120%] font-normal pt-2">
+                                    <div class="flex justify-between items-center">
+                                        <p>Paid Amount:</p>
+                                        <p class="text-[160%] pr-1">0</p>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <p>Change:</p>
+                                        <p class="text-[160%] pr-1">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col space-y-3 text-[110%] font-semibold tracking-[.2rem] rounded-md">
+                                
+                                <button type="button" class="w-full text-center text-white bg-[#EF3B48] hover:bg-[#DA3232] rounded-lg shadow-sm xl:py-4 2xl:py-6" data-modal-hide="checkout">
+                                    <p>PAY</p>
+                                </button>
+                                <a href="index.html" class="w-full bg-white hover:bg-gray-500 hover:text-white text-center rounded-lg shadow xl:py-4 2xl:py-6" type="button">
+                                    <p>CANCEL</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Payment
+                <div class="block xl:hidden w-[100%] h-[auto] md:h-[20vh]">
+                    <div class="w-full h-full flex flex-col md:flex-row md:gap-5 tracking-[.1rem] bg-gray-200 p-3 rounded-lg space-y-3 md:space-y-0">
+                        <div class="w-full h-full bg-white rounded-lg shadow-sm p-5">
+                            <div class="flex justify-between leading-[150%]">
+                                <p class="text-[110%] font-bold">TOTAL:</p>
+                                <p class="font-semibold text-[180%] text-[#EF3B48]">10</p>
+                            </div>
+                            <hr class="mb-2 mt-4">
+                            <div class="text-[105%] font-normal leading-[180%]">
+                                <div class="flex justify-between items-center">
+                                    <p>Paid Amount:</p>
+                                    <p class="text-[130%] pr-1">0</p>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <p>Change:</p>
+                                    <p class="text-[130%] pr-1">0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-[50%] h-full flex flex-col space-y-2 font-medium md:text-[105%] lg:text-[110%] mt-5 md:mt-0">
+                            <button type="button" class="w-full h-full text-white bg-[#EF3B48] hover:bg-[#DA3232] rounded-lg shadow-sm py-3.5 md:py-0" data-modal-hide="checkout">
+                                <p>PAY</p>
+                            </button>
+                            <a href="index.html" class="w-full h-full flex justify-center items-center bg-white hover:bg-gray-500 hover:text-white rounded-lg shadow-sm py-3.5 md:py-0" type="button">
+                                <p>CANCEL</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script src="js/quantity.js"></script>
+</body>
+</html>
