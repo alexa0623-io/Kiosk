@@ -1,0 +1,1677 @@
+@media screen and (device-width: 1680px) and (device-height: 1050px) {
+
+    .cards-container .card-image {
+        height: 17vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-price {
+        margin-top: 6% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -16% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 12.5% !important;
+    }
+
+    .cards-container .plus-red i {
+        padding-left: -182% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 18% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 13% !important;
+    }
+
+}
+
+@media screen and (device-width: 1600px) and (device-height: 900px) {
+    .cards-container .plus {
+        margin-top: -16% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 1% !important;
+    }
+    
+    .cards-container .plus-red i {
+        font-size: 120% !important;
+        margin-left: -10% !important;
+        margin-top: -7% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 7% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 4% !important;
+    }
+}
+
+@media screen and (device-width: 1440px) and (device-height: 900px) {
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 1% !important;
+    }
+    
+    .cards-container .plus-red i {
+        font-size: 110% !important;
+        margin-left: -5% !important;
+        margin-top: 0% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 10% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 7% !important;
+    }
+}
+
+@media screen and (device-width: 1400px) and (device-height: 1050px) {
+    .main-content {
+        height: 77vh !important;
+    }
+    
+    .payment-main {
+        height: 23vh !important;
+    }
+
+    .sidebar img {
+        width: 70% !important;
+    }
+
+    .cards-container .card-image {
+        height: 15vh !important;
+    }
+
+    .cards-container img {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 13% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 77% !important;
+        bottom: 4% !important;
+    }
+    
+    .cards-container .plus-red i {
+        font-size: 110% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 20% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 13% !important;
+    }
+}
+
+@media screen and (device-width: 1366px) and (device-height: 768px) {
+    .main-content {
+        height: 71vh !important;
+    }
+    
+    .payment-main {
+        height: 29vh !important;
+    }
+
+    .sidebar img {
+        width: 50% !important;
+    }
+
+    .cards-container .card-image {
+        height: 17vh !important;
+    }
+
+    .cards-container img {
+        padding: 7% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 4% !important;
+    }
+    
+    .cards-container .plus-red i {
+        font-size: 100% !important;
+        margin-left: -5% !important;
+        margin-top: -4% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 10% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 7% !important;
+    }
+}
+
+@media screen and (device-width: 1360px) and (device-height: 768px) {
+
+    
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 100% !important;
+        margin-left: -5% !important;
+        margin-top: -4% !important;
+    }
+
+    .payment-num1 {
+        font-size: 250% !important;
+        padding-top: 3% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 250% !important;
+        padding-top: 2% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 1024px) {
+    .main-content {
+        height: 78vh !important;
+    }
+    
+    .payment-main {
+        height: 22vh !important;
+    }
+
+    .sidebar img {
+        width: 60% !important;
+    }
+
+    .cards-container .card-image {
+        height: 16vh !important;
+    }
+
+    .cards-container img {
+        padding: 7% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 115% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+    
+    .payment-num1 {
+        font-size: 250% !important;
+        padding-top: 3% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 250% !important;
+        padding-top: 2% !important;
+    }
+    
+    .payment-num1 {
+        padding-top: 30% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 24% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 960px) {
+    
+    .sidebar img {
+        width: 60% !important;
+    }
+
+    .cards-container .card-image {
+        height: 17vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 81% !important;
+        bottom: 4% !important;
+    }
+
+    .payment-num1 {
+        padding-top: 28% !important;
+    }
+    
+    .payment-num2 {
+        padding-top: 22% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+    .cards-container .card-image {
+        height: 19vh !important;
+    }
+
+    .cards-container img {
+        padding: 7% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 82.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 100% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-num1 {
+        font-size: 250% !important;
+        padding-top: 15% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 250% !important;
+        padding-top: 12% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 768px) {
+    .main-content {
+        height: 74vh !important;
+    }
+    
+    .payment-main {
+        height: 26vh !important;
+    }
+    
+    .cards-container .card-image {
+        height: 20vh !important;
+    }
+
+    .cards-container img {
+        padding: 7% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 82.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 100% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-num1 {
+        font-size: 250% !important;
+        padding-top: 17% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 250% !important;
+        padding-top: 14% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 720px) {
+
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .sidebar img {
+        width: 50% !important;
+    }
+
+    .main-content {
+        height: 76vh !important;
+    }
+    
+    .payment-main {
+        height: 24vh !important;
+        padding-top: 1.4% !important;
+        padding-bottom: 1.2% !important;
+    }
+
+    .cards-container .card-image {
+        height: 20vh !important;
+    }
+
+    .cards-container img {
+        padding: 9% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 12% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 79.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 92% !important;
+        margin-left: -4% !important;
+        margin-top: 1% !important;
+    }
+
+    .payment-num1 {
+        font-size: 250% !important;
+        padding-top: 17% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 250% !important;
+        padding-top: 13% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 600px) {
+
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .sidebar .title {
+        font-size: 140% !important;
+    }
+
+    .sidebar .images {
+        margin-top: 0% !important;
+        padding-left: 25% !important;
+        padding-right: 25% !important;
+    }
+
+    .sidebar .side-btn2,
+    .sidebar .side-btn3 {
+        margin-top: -1% !important;
+    }
+
+    .sidebar img {
+        width: 52% !important;
+    }
+
+    .sidebar .menu {
+        font-size: 100% !important;
+    }
+
+    .main-content {
+        height: 72vh !important;
+    }
+    
+    .payment-main {
+        height: 28vh !important;
+        padding-top: 1.4% !important;
+        padding-bottom: 1.2% !important;
+    }
+
+    .cards-container .card-image {
+        height: 21vh !important;
+    }
+
+    .cards-container img {
+        padding: 8.8% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 86% !important;
+        margin-left: -15% !important;
+        margin-top: -4% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 110% !important;
+    }
+
+    .payment-main {
+        font-size: 100% !important;
+    }
+
+    .payment-num1 {
+        font-size: 230% !important;
+        padding-top: 19% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 230% !important;
+        padding-top: 15% !important;
+    }
+
+    .checkout-btn {
+        gap: 7% !important;
+    }
+}
+
+@media screen and (device-width: 1152px) and (device-height: 864px) {
+    .sidebar img {
+        width: 60% !important;
+    }
+
+    .cards-container .card-image {
+        height: 17vh !important;
+    }
+
+    .cards-container img {
+        padding: 8.5% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 95% !important;
+        margin-left: -5% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-num1 {
+        font-size: 230% !important;
+        padding-top: 28% !important;
+    }
+    
+    .payment-num2 {
+        font-size: 230% !important;
+        padding-top: 22% !important;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+
+    .main-content {
+        height: 65vh !important;
+    }
+    
+    .payment-main {
+        height: 35vh !important;
+    }
+
+    .images {
+        margin-top: -6% !important;
+    }
+
+    .sidebar img {
+        width: 40% !important;
+    }
+
+    .sidebar .title {
+        font-size: 160% !important;
+        margin-top: -8% !important;
+    }
+
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 18vh !important;
+    }
+
+    .cards-container img {
+        padding: 8.5% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 95% !important;
+        margin-left: -10% !important;
+        margin-top: -7% !important;
+    }
+
+}
+
+@media screen and (device-width: 800px) and (device-height: 600px) {
+
+    .main-content {
+        height: 60vh !important;
+    }
+    
+    .payment-main {
+        height: 40vh !important;
+        font-size: 100% !important;
+    }
+
+    .images {
+        margin-top: -6% !important;
+    }
+
+    .images .menu {
+        font-size: 98% !important;
+    }
+
+    .sidebar img {
+        width: 35% !important;
+    }
+
+    .sidebar .title {
+        font-size: 150% !important;
+        margin-top: -8% !important;
+    }
+
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 19vh !important;
+    }
+
+    .card-text {
+        font-size: 95% !important;
+    }
+
+    .cards-container img {
+        padding: 9% !important;
+    }
+    
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 80% !important;
+        margin-left: -27% !important;
+        margin-top: -20% !important;
+    }
+
+    .payment-main button {
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+}
+
+/* MOBILE */
+
+/* IPhone SE */
+@media screen and (width: 375px) and (height: 667px) {
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 65vh !important;
+    }
+    
+    .payment-main {
+        height: 35vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 17vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+}
+
+/* IPhone XR */
+@media screen and (width: 414px) and (height: 896px) {
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 105% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 74vh !important;
+    }
+    
+    .payment-main {
+        height: 26vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -14% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+}
+    
+/* IPhone 12 Pro */
+@media screen and (width: 390px) and (height: 844px) {
+
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 105% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 70vh !important;
+    }
+    
+    .payment-main {
+        height: 30vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -14% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+}
+    
+/* IPhone 14 Pro Max */
+@media screen and (width: 430px) and (height: 932px) {
+    
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 105% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 74vh !important;
+    }
+    
+    .payment-main {
+        height: 26vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -14% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 115% !important;
+    }
+}
+
+/* Pixel 7 */
+@media screen and (width: 412px) and (height: 915px) {
+    
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 105% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 74vh !important;
+    }
+    
+    .payment-main {
+        height: 26vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -14% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 100% !important;
+    }
+}
+
+/* Samsung G S8 */
+@media screen and (width: 360px) and (height: 740px) {
+    
+    .sidebar {
+        width: 28% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 105% !important;
+    }
+
+    .main {
+        margin-left: 28% !important;
+    }
+
+    .main-content {
+        height: 70vh !important;
+    }
+    
+    .payment-main {
+        height: 30vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -14% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 90% !important;
+    }
+}
+
+/* iPad Mini */
+@media screen and (width: 768px) and (height: 1024px) {
+
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 76vh !important;
+    }
+    
+    .payment-main {
+        height: 24vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 12vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 130% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 80.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 120% !important;
+    }
+
+    .checkout-btn button {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+    }
+}
+
+/* iPad Air */
+@media screen and (width: 820px) and (height: 1180px) {
+    
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 79vh !important;
+    }
+    
+    .payment-main {
+        height: 21vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 12vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 130% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 80.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 120% !important;
+    }
+
+    .payment-main .items {
+        padding-top: 1% !important;
+    }
+}
+
+/* iPad Pro */
+@media screen and (width: 1024px) and (height: 1366px) {
+    
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 90% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 86vh !important;
+    }
+    
+    .payment-main {
+        height: 14vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 11vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 130% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 12% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 79% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: -1% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 120% !important;
+    }
+
+    .payment-main .items {
+        padding-top: 1% !important;
+    }
+}
+
+/* Surface Pro 7 */
+@media screen and (width: 912px) and (height: 1368px) {
+
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 79vh !important;
+    }
+    
+    .payment-main {
+        height: 21vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 12vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 130% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -12% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 80.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 120% !important;
+    }
+
+    .checkout-btn button {
+        padding-top: 3.5% !important;
+        padding-bottom: 3.5% !important;
+    }
+}
+
+/* Surface Duo */
+@media screen and (width: 540px) and (height: 720px) {
+
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 68vh !important;
+    }
+    
+    .payment-main {
+        height: 32vh !important;
+    }
+    
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 9% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 110% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 80.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 95% !important;
+    }
+
+    .checkout-btn button {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+}
+
+/* Galaxy Z Fold 5 */
+@media screen and (width: 344px) and (height: 882px) {
+}
+
+/* iPad Pro */
+@media screen and (width: 853px) and (height: 1280px) {
+
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 60% !important;
+    }
+
+    .images .menu {
+        font-size: 130% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 80vh !important;
+    }
+    
+    .payment-main {
+        height: 20vh !important;
+    }
+    
+    .cards-container .card-image {
+        height: 11vh !important;
+    }
+
+    .cards-container img {
+        padding: 6% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 140% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 11% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 80.5% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 115% !important;
+    }
+
+    .checkout-btn button {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+    }
+}
+
+/* Samsung G A51/71 */
+@media screen and (width: 412px) and (height: 914px) {
+
+    .sidebar {
+        width: 32% !important;
+    }
+
+    .sidebar .images img {
+        width: 64% !important;
+    }
+
+    .images .menu {
+        font-size: 110% !important;
+    }
+
+    .main {
+        margin-left: 32% !important;
+    }
+
+    .main-content {
+        height: 74vh !important;
+    }
+    
+    .payment-main {
+        height: 26vh !important;
+    }
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cards-container .card-image {
+        height: 14vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 120% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -13% !important;
+    }
+
+    .cards-container .plus-gray {
+        padding: 10% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 83% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .checkout-btn button {
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+}
+
+/* Nest Hub */
+@media screen and (width: 1024px) and (height: 600px) {
+    .sidebar {
+        width: 20% !important;
+    }
+
+    .sidebar .images img {
+        width: 55% !important;
+    }
+
+    .images .menu {
+        font-size: 115% !important;
+    }
+
+    .main {
+        margin-left: 20% !important;
+    }
+
+    .main-content {
+        height: 73vh !important;
+    }
+    
+    .payment-main {
+        height: 27vh !important;
+    }
+
+    .cards-container .card-image {
+        height: 18vh !important;
+    }
+
+    .cards-container img {
+        padding: 8% !important;
+    }
+
+    .cards-container .card-text {
+        font-size: 130% !important;
+    }
+
+    .cards-container .plus {
+        margin-top: -15% !important;
+    }   
+
+    .cards-container .plus-gray {
+        padding: 12% !important;
+    }
+
+    .cards-container .plus-red {
+        left: 79% !important;
+        bottom: 4% !important;
+    }
+
+    .cards-container .plus-red i {
+        font-size: 90% !important;
+        margin-left: -1% !important;
+        margin-top: 0% !important;
+    }
+
+    .payment-main {
+        font-size: 120% !important;
+    }
+
+    .payment-main .items {
+        padding-top: 2% !important;
+    }
+
+    .payment-main .payment-num1, 
+    .payment-main .payment-num2 {
+        font-size: 250% !important;
+        margin-top: -8% !important;
+    }
+}
+
+/* Nest Hub Max*/
+@media screen and (width: 1280px) and (height: 800px) {
+
+}
