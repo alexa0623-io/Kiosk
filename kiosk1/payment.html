@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">   
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/payment.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
+
+</head>
+<body>
+    
+    <div class="roboto w-[100%] h-[100vh]">
+        <div class="payment w-full h-full flex flex-col sm:flex-row">
+            <div class="payment-content w-full h-full flex flex-row sm:flex-col bg-gray-200 gap-4 sm:gap-0 sm:space-y-6 md:space-y-8 2xl:space-y-8 p-4 md:p-6 2xl:p-8 border-r">
+                <!-- INPUT PRICE -->
+                <div class="payment-input w-[30%] sm:w-full h-full sm:h-[80vh] md:h-[70vh] lg:h-[50vh] 2xl:h-[55vh]">
+                    <div class="h-full cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-[120%] sm:text-[150%] md:text-[160%] lg:text-[200%] 2xl:text-[270%] font-medium tracking-[.2rem] bg- rounded-lg gap-3 sm:gap-4 md:gap-6 2xl:gap-7">
+                        <button class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">50</button>
+                        <button class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">100</button>
+                        <button class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">200</button>
+                        <button class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">500</button>
+                        <button class="card flex justify-center items-center bg-red-500 hover:bg-red-600 text-white rounded-lg">1,000</button>
+                    </div>
+                </div>
+                
+                <!-- CALCULATOR -->
+                <div class="w-full h-full">
+                    <div class="w-full h-full flex flex-col space-y-[4%] sm:space-y-5 lg:space-y-6 2xl:space-y-8">
+                        <form action="" class="input w-full h-[16.5%] sm:h-[13%] md:h-[18%] text-[110%] md:text-[120%] lg:text-[130%] 2xl:text-[160%] tracking-[.2rem]">
+                            <input type="number" class="w-full h-full p-5 border-[.5%] border-gray-800 shadow rounded-lg" placeholder="input">
+                        </form>
+                        <div class="calculator w-full h-full flex font-medium tracking-[.2rem] gap-3 md:gap-4 xl:gap-5">
+                            <div class="calculator-content w-full flex flex-col gap-2 sm:gap-4 xl:gap-5 text-[150%] lg:text-[170%] xl:text-[180%] 2xl:text-[230%]">
+                                <div class="number w-full h-full cards-container grid grid-cols-3 gap-3 md:gap-4 xl:gap-5">
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>1</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>2</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>3</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>4</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>5</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>6</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>7</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>8</p>
+                                    </button>
+                                    <button type="button" class="card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-[.8%] border-gray-800 shadow rounded-lg">
+                                        <p>9</p>
+                                    </button>
+                                </div>
+                                <div class="number-b w-full h-[8vh] sm:h-[12vh] flex gap-3 md:gap-4 xl:gap-5">
+                                    <button type="button" class="card w-full flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-1 border-gray-800 shadow rounded-lg">
+                                        <p>0</p>
+                                    </button>
+                                    <button type="button" class="card w-[48%] flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-1 border-gray-800 shadow rounded-lg">
+                                        <p>.</p>
+                                    </button>
+                                </div>
+                            </div>
+    
+                            <div class="del-enter w-[28%] sm:w-[30%] md:w-[28%] lg:w-[22%] xl:w-[16%] 2xl:w-[15%] h-full flex flex-col text-[100%] lg:text-[120%] 2xl:text-[150%] gap-3 md:gap-4 xl:gap-5">
+                                <button type="button" class="del h-[7.6vh] sm:h-[12.4vh] lg:h-[14.8vh] xl:h-[14.1vh] 2xl:h-[13.2vh] card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-1 border-gray-800 shadow rounded-lg">
+                                    <p>DEL</p>
+                                </but0ton>
+                                <button type="button" class="h-full card flex justify-center items-center bg-white hover:text-white hover:bg-red-500 border-1 border-gray-800 shadow rounded-lg">
+                                    <p class="hidden md:block">ENTER</p>
+                                    <span class="block md:hidden">
+                                        <p>EN</p>
+                                        <p>TER</p>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAYMENT / TRANSACTION -->
+            <div class="transaction w-[100%] lg:w-[80%] 2xl:w-[70%] h-[90vh] sm:h-[100vh] bg-white">
+                <div class="w-full h-full flex flex-col">
+                    <div>
+                        <!-- Btn for modal -->
+                        <div class="flex justify-end pt-6 sm:pt-8 md:pt-10 px-5 lg:px-8">
+                            <button id="paymentButton" class="text-white bg-red-500 hover:bg-red-600 px-6 py-3 tracking-[.1rem] rounded-lg">View Order</button>
+
+                            <div id="paymentModal" class="hidden fixed inset-0 z-50 mt-[-2%] flex items-center justify-center bg-gray-800 bg-opacity-50">
+                                <!-- Modal header -->
+
+                                <div class="relative w-[90%] lg:w-[85%] xl:w-[70%] 2xl:w-[55%] h-[auto] bg-white rounded-lg shadow-lg">
+
+                                    <!-- Modal header -->
+                                    <div class="relative w-full flex justify-end">
+                                        <button id="cancelPayment" type="button" class=" pt-3 pb-4 md:pb-0 md:pt-4 px-3 md:px-4 text-gray-400 hover:text-gray-900">
+                                            <i class="fa-solid fa-xmark text-[110%] lg:text-[130%]"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="w-full h-[70vh] sm:h-[65vh] lg:h-[70vh] overflow-y-auto ">
+                                        <div class="px-4 sm:px-6 lg:px-8 pt-[-80%] sm:pt-3 lg:pt-6 2xl:pt-5 pb-8">
+                                            <table class="w-full tracking-[.1rem] text-[98%] sm:text-[100%] xl:text-[105%] 2xl:text-[130%] ">
+                                                <thead class="uppercase text-white bg-gray-600">
+                                                    <tr>
+                                                        <th scope="col" class="text-left px-5 2xl:px-6 py-3">Item</th>
+                                                        <th scope="col" class="px-3 lg:px-5 2xl:px-6 py-4 text-center">Qty</th>
+                                                        <th scope="col" class="px-3 lg:px-5 2xl:px-6 py-4 text-center">Price</th>
+                                                        <th scope="col" class="px-3 lg:px-5 2xl:px-6 py-4 text-center">Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="">
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 w-[48%] sm:w-[20%] lg:w-[30%]">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                    <tr class="bg-white border-b border-gray-200">
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4">Kabayan Regular Burger</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">1</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                        <td class="px-3 lg:px-5 2xl:px-6 py-4 text-center">65.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-details h-full flex flex-col justify-between tracking-[.1rem] p-5 lg:p-8">
+                        <div class="mt-2">
+                            <!-- Payment method -->
+                            <div class="payment-method w-full pb-2 md:pb-8 sm:pt-0 py-0 sm:py-5 lg:py-8">                                
+                                <form class="text-[95%] lg:text-[100%]">
+                                    <select id="payment" class="w-full text-[110%] p-3 py-4 sm:py-4 lg:py-5 bg-blue-50 border border-blue-200 text-gray-900 rounded-lg">
+                                        <option selected>Choose payment</option>
+                                        <option>Cash</option>
+                                        <option>E-Wallet</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div class="total-details mt-3 sm:mt-0">
+                                <!-- TOTAL -->
+                                <div class="total">
+                                    <p class="title text-[140%] sm:text-[140%] md:text-[140%] lg:text-[190%] font-medium">Total:</p>
+                                    <p class="price text-[180%] sm:text-[180%] md:text-[210%] lg:text-[300%] text-red-600 font-semibold text-end">325.00</p>
+                                </div>
+                                <hr class="mt-6 mb-6 sm:mb-10">
+                                <div class="paid-change text-[120%] sm:text-[110%] md:text-[120%] lg:text-[140%] space-y-2">
+                                    <div class="flex justify-between">
+                                        <p>Paid Amount:</p>
+                                        <p class="text-[100%] lg:text-[130%]">0.00</p>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <p>Change:</p>
+                                        <p class="text-[100%] lg:text-[130%]">0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <div class="button w-full flex flex-col text-[95%] sm:text-[100%] lg:text-[110%] gap-2 sm:gap-3 mt-8 sm:mt-0 pb-4 sm:pb-0">
+                            <button class="w-full text-white text-center bg-red-500 hover:bg-red-600 rounded-lg py-3 lg:py-4 2xl:py-5 shadow" type="button">
+                                <p>PAID</p>
+                            </button>
+                            <a href="index.html" class="w-full pointer-cursor text-center border border-red-300 text-red-500 hover:text-white hover:bg-gray-500 hover:border-gray-300 rounded-lg py-3 lg:py-4 2xl:py-5 shado-sm" type="button">
+                                <p>CANCEL</p>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/modal.js"></script>
+</body>
+</html>
