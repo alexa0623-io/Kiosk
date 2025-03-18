@@ -1,0 +1,3215 @@
+@media screen and (device-width: 1680px) and (device-height: 1050px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 210% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 180% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 130% !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }
+
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+    }
+
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+    }
+
+    .promo-payment label {
+        font-size: 120% !important;
+    }   
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 115% !important;
+    }  
+    
+    .promo-payment button {
+        padding-top: 1.8% !important;
+        padding-bottom: 1.8% !important;
+    }
+}
+
+@media screen and (device-width: 1600px) and (device-height: 900px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 190% !important;
+    }
+
+    /* CALCULATOR */
+    
+    .payment .calculator form {
+        font-size: 115% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 150% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 130% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 11.7vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 90% !important;
+    }  
+
+    .payment .transaction form {
+        gap: 20px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .promo-payment label {
+        font-size: 108% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 2.4% !important;
+        padding-bottom: 2.4% !important;
+        font-size: 100% !important;
+    }  
+    
+    .promo-payment select {
+        padding-top: 2.4% !important;
+        padding-bottom: 2.4% !important;
+        font-size: 90% !important;
+    }  
+    
+    .promo-payment button {
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important;
+    }
+
+    .promo-payment hr {
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -3% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 190% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -2% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+    }
+}
+
+@media screen and (device-width: 1440px) and (device-height: 900px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 200% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 180% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 130% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.8vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 90% !important;
+    }  
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 110% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 95% !important;
+    }
+    
+    .promo-payment button {
+        padding-top: 1.7% !important;
+        padding-bottom: 1.7% !important;
+        right: 1.4% !important;
+    }
+
+    .promo-payment hr {
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -3% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 200% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -2% !important;
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+    }
+}
+
+@media screen and (device-width: 1400px) and (device-height: 1050px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 200% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 180% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 130% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 15vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 80% !important;
+    }  
+
+    .payment .view-order {
+        font-size: 110% !important;
+    }
+
+    .payment .transaction form {
+        gap: 40px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 115% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+        font-size: 115% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 100% !important;
+    }  
+    
+    .promo-payment button {
+        padding-top: 2.2% !important;
+        padding-bottom: 2.2% !important;
+        right: 1.8% !important;
+    }
+
+    /* .promo-payment hr {
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    } */
+
+    .total-payment .total .title {
+        font-size: 150% !important;
+        margin-bottom: -3% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 230% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -2% !important;
+        font-size: 115% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3% !important;
+        font-size: 110% !important;
+    }
+}
+
+@media screen and (device-width: 1366px) and (device-height: 768px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 160% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator form {
+        font-size: 110% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 135% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+        max-height: 100vh !important;
+        overflow-y: auto;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 1.8% !important;
+        padding-bottom: 1.8% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 200% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 105% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+        font-size: 95% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 5% !important;
+    }
+}
+
+@media screen and (device-width: 1360px) and (device-height: 768px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 160% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator form {
+        font-size: 110% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 130% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+        max-height: 100vh !important;
+        overflow-y: auto;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 1.8% !important;
+        padding-bottom: 1.8% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 200% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 105% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+        font-size: 95% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 5% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 1024px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 180% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 160% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 140% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 15.2vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 80% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 40px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 120% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        /* padding-top: 2.3% !important;
+        padding-bottom: 2.3% !important; */
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        right: 1.8% !important;
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        /* margin-bottom: -2% !important; */
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3.5% !important;
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 960px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 180% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 160% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 140% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 15.2vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 80% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 40px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 120% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        /* padding-top: 2.3% !important;
+        padding-bottom: 2.3% !important; */
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        right: 1.8% !important;
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        /* margin-bottom: -2% !important; */
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3.5% !important;
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 160% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 150% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 120% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 120% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.7vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 120% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3.4% !important;
+        padding-bottom: 3.4% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.2% !important;
+        padding-bottom: 2.2% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        right: 1.8% !important;
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        /* margin-bottom: -2% !important; */
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-btn {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3.5% !important;
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 768px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 160% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 150% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 120% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 120% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.7vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 120% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3.4% !important;
+        padding-bottom: 3.4% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.2% !important;
+        padding-bottom: 2.2% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        right: 1.8% !important;
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        /* margin-bottom: -2% !important; */
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-btn {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3.5% !important;
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 720px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 150% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator form {
+        font-size: 110% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 130% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+        max-height: 100vh !important;
+        overflow-y: auto;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 1.8% !important;
+        padding-bottom: 1.8% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 200% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 105% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+        font-size: 95% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 5% !important;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 600px) {
+    
+    /* INPUT PRICE */
+
+    .payment .payment-input .cards-container {
+        height: 30vh !important;
+        font-size: 150% !important;
+        row-gap: 8% !important;
+        column-gap: 2% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator {
+        margin-top: 1% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 100% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        margin-top: -2% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 130% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+        margin-top: -2% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 14vh !important;
+    }
+
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+        max-height: 100vh !important;
+        overflow-y: auto;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 100% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+        font-size: 105% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 95% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 1.8% !important;
+        padding-bottom: 1.8% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 100% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 200% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 105% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 2.5% !important;
+        font-size: 95% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 20% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 8% !important;
+    }
+}
+
+@media screen and (device-width: 1152px) and (device-height: 864px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 150% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator form {
+        font-size: 115% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 14.8vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+        max-height: 100vh !important;
+        overflow-y: auto;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 115% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 108% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3% !important;
+        font-size: 100% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 5% !important;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+    /* INPUT PRICE */
+    .payment .payment-input  {
+        height: 50vh !important;
+    }
+
+    .payment .payment-input .cards-container {
+        font-size: 150% !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator form {
+        font-size: 115% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 100% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 14.8vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        /* padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important; */
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 110% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 115% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 130% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 108% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3% !important;
+        font-size: 100% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 2% !important;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+
+    .payment .transaction {
+        width: 100% !important;
+    }
+
+    .payment .payment-input {
+        font-size: 100% !important;
+    }
+
+    .payment .payment-input .cards-container {
+        row-gap: 8% !important;
+        column-gap: 2% !important;
+    }
+
+    .payment .input {
+        height: 9vh !important;
+        font-size: 100% !important;
+        margin-top: -1% !important;
+        margin-bottom: -1% !important;
+    }
+    
+    .calculator {
+        column-gap: 2.5% !important;
+    }
+
+    .calculator .calculator-content {
+        font-size: 150% !important;
+        row-gap: 4% !important;
+    }
+
+    .calculator .number {
+        row-gap: 5% !important;
+        column-gap: 2.5% !important;
+    }
+
+    .calculator .number-b {
+        column-gap: 2.5% !important;
+    }
+
+    .del-enter {
+        font-size: 105% !important;
+        row-gap: 3.8% !important;
+    }
+
+    .del-enter .del {
+        height: 14.2vh !important;
+    }
+
+    .transaction {
+        height: 97.5vh !important;
+    }
+
+    .transaction .product thead {
+        font-size: 95% !important;
+    }
+
+    .transaction .payment-details {
+        padding-top: 4% !important;
+        padding-bottom: 1% !important;
+    }
+
+    .transaction .payment-details select {
+        font-size: 90% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+
+    .transaction .total-details {
+        margin-top: -3% !important;
+    }
+
+    .total-details .total {
+        font-size: 75% !important;
+    }
+
+    .total-details .price {
+        font-size: 230% !important;
+        margin-top: -1% !important;
+    }
+
+    .total-details hr {
+        margin-top: 1% !important;
+        margin-bottom: 2% !important;
+    }
+
+    .total-details .paid-change {
+        font-size: 95% !important;
+        margin-bottom: -3% !important;
+    }
+
+    .transaction button,
+    .transaction a {
+        font-size: 90% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 600px) {
+    
+    .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+    /* INPUT PRICE */
+    .payment {
+        gap: 1px !important;
+    }
+
+    .payment .payment-input  {
+        height: 45vh !important;
+    }
+
+    .payment .payment-input .cards-container {
+        font-size: 130% !important;
+        gap: 10px !important;
+    }
+
+    /* CALCULATOR */
+
+    .payment .calculator {
+        margin-top: 5% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 95% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        font-size: 100% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 90% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.2vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 85% !important;
+        padding-left: 3.5% !important;
+        padding-right: 3.5% !important;
+        padding-top: 1.5% !important;
+        padding-bottom: 1.5% !important;
+    }
+
+    .payment .transaction form {
+        gap: 20px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 95% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+        font-size: 90% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 80% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.2% !important;
+        padding-bottom: 2.2% !important;
+            /* padding-left: 6% !important;
+            padding-right: 6% !important; */
+        /* right: 1.8% !important; */
+        font-size: 85% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 100% !important;
+        margin-bottom: -8% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 150% !important;
+        margin-bottom: -3% !important;
+    }
+
+    .total-payment .paid-change {
+        margin-top: -6% !important;
+        font-size: 80% !important;
+    }
+
+    .total-payment .paid-change .number {
+        font-size: 115% !important;
+    }
+
+    .total-payment .change {
+        margin-top: -1% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3% !important;
+        font-size: 80% !important;
+    }
+
+    .transaction .payment-btn button {
+        margin-top: 5% !important;
+    }
+
+    .transaction .payment-btn a {
+        margin-bottom: 7% !important;
+    }
+}
+
+/* MOBILE */
+
+/* IPhone SE */
+@media screen and (width: 375px) and (height: 667px) {
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 45vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 80% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator form {
+        height: 7.3vh !important;
+    }
+
+    .payment .calculator .number {
+        margin-top: 1.5% !important;
+        row-gap: 7.2% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 10vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 10.5vh !important;
+        margin-top: 5% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 6% !important;
+    }
+}
+
+/* IPhone XR */
+@media screen and (width: 414px) and (height: 896px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 37vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 6.2vh !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 1% !important;
+        row-gap: 6.5% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 4.6% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 8.5vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 8.8vh !important;
+        margin-top: 3.5% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+}
+    
+/* IPhone 12 Pro */
+@media screen and (width: 390px) and (height: 844px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 37vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 6.2vh !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: .8% !important;
+        row-gap: 7% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 8.4vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 8.5vh !important;
+        margin-top: .8% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-bottom: 6% !important;
+    }
+}
+    
+/* IPhone 14 Pro Max */
+@media screen and (width: 430px) and (height: 932px) {
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 35vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 5.8vh !important;
+    }   
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 8vh !important;
+    }
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 8.4vh !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 2.4% !important;
+        padding-bottom: 2.4% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 6% !important;
+    }
+}
+
+/* Pixel 7 */
+@media screen and (width: 412px) and (height: 915px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 38vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 6.5vh !important;
+    }   
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 1% !important;
+        row-gap: 7% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 8.5vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 9vh !important;
+        margin-top: 3% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }   
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 4% !important;
+    }
+}
+
+/* Samsung G S8 */
+@media screen and (width: 360px) and (height: 740px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 45vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 7.4vh !important;
+    }   
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 2% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 10.5vh !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 10.5vh !important;
+        margin-top: 7% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }   
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 6% !important;
+    }
+}
+
+/* iPad Mini */
+@media screen and (width: 768px) and (height: 1024px) {
+    /* .payment .payment-input {
+        height: 90vh !important;
+        font-size: 120% !important;
+    }
+
+    .payment .input {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator {
+        font-size: 130% !important;
+    }
+
+    .payment .del-enter {
+        font-size: 75% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 11.5vh !important;
+    }
+
+    .transaction thead {
+        font-size: 120% !important;
+    }
+
+    .transaction tbody {
+        font-size: 120% !important;
+    }
+
+    .transaction .payment-details select {
+        padding-top: 6% !important;
+        padding-bottom: 6% !important;
+        font-size: 120% !important;
+    }
+
+    .transaction .total .title {
+        font-size: 145% !important;
+    }
+
+    .transaction .total .price {
+        font-size: 200% !important;
+    }
+
+    .transaction .paid-change {
+        font-size: 128% !important;
+        margin-bottom: 15% !important;
+    }
+
+    .transaction button,
+    .transaction a {
+        font-size: 125% !important;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    } */
+
+    
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 80vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 100% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 100% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 2% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 9vh !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 100% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+        margin-top: 7% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+
+
+    .payment .transaction .apply {
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }   
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 6% !important;
+    }
+}
+
+/* iPad Air */
+@media screen and (width: 820px) and (height: 1180px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 80vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 110% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 110% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 2% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 9vh !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 110% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 110% !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+        margin-top: 7% !important;
+    }
+
+}
+
+/* iPad Pro */
+@media screen and (width: 1024px) and (height: 1366px) {
+
+    .payment .payment-input .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 80vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 110% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 110% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 2% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 9vh !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 110% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 110% !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.4vh !important;
+        margin-top: 7% !important;
+    }
+}
+
+/* Surface Pro 7 */
+@media screen and (width: 912px) and (height: 1368px) {
+
+    .payment .payment-input .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .payment .payment-input .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 80vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 110% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 110% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 2% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 9vh !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 110% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 110% !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.4vh !important;
+        margin-top: 7% !important;
+    }
+}
+
+/* Surface Duo */
+@media screen and (width: 540px) and (height: 720px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 45vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 7.4vh !important;
+    }   
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: -.5% !important;
+        row-gap: 7.2% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 10.2vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 10.1vh !important;
+        margin-top: -2% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 6% !important;
+    }
+
+}
+
+/* Galaxy Z Fold 5 */
+@media screen and (width: 344px) and (height: 882px) {
+
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 38vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment .calculator form {
+        height: 6.3vh !important;
+    }   
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 3% !important;
+        row-gap: 7% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 8.5vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 8.9vh !important;
+        margin-top: 9% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        right: .5rem !important;
+        padding-top: 3.2% !important;
+        padding-bottom: 3.2% !important;
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 2% !important;
+    }
+
+}
+
+/* iPad Pro */
+@media screen and (width: 853px) and (height: 1280px) {
+
+}
+
+/* Samsung G A51/71 */
+@media screen and (width: 412px) and (height: 914px) {
+
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .calculator form {
+        height: 5.7vh !important;
+    }   
+
+    .payment .calculator .calculator-content {
+        row-gap: 5.2% !important;
+    }
+
+    .payment .number {
+        row-gap: 7% !important;
+    }
+    
+    .payment .del-enter {
+        font-size: 90% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 7vh !important;
+    }
+
+}
+
+/* Nest Hub */
+@media screen and (width: 1024px) and (height: 600px) {
+
+    .payment .payment-input {
+        height: 40vh !important;
+        font-size: 90% !important;
+    }
+
+    .payment .cards-container {
+        row-gap: 8% !important;
+        column-gap: 3% !important;
+    }
+
+    .payment .input {
+        font-size: 130% !important;
+    }
+
+    .payment .calculator {
+        font-size: 90% !important;
+        margin-top: 3% !important;
+    }
+
+    .payment .calculator form {
+        height: 10vh !important;
+    }
+
+    .payment .del-enter {
+        font-size: 110% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13vh !important;
+    }
+
+    .payment .transaction .promo-payment input,
+    .payment .transaction .promo-payment select {
+        padding-top: 3.8% !important;
+        padding-bottom: 3.8% !important;
+    }
+
+    .promo-payment hr {
+        display: none !important;
+    }
+    
+    .payment .promo-payment select {
+        margin-top: -4% !important;
+    }
+
+    .payment .transaction .promo-payment button {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        margin-top: .1% !important;
+        font-size: 95% !important;
+    }
+
+    .payment .total-payment .total {
+        margin-top: 2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .payment .total-payment .paid-change {
+        margin-top: -5% !important;
+    }
+
+    .payment .payment-btn button, 
+    .payment .payment-btn a {
+        padding: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        margin-top: -34% !important;
+    }
+
+}
+
+/* Nest Hub Max*/
+@media screen and (width: 1280px) and (height: 800px) {
+
+    .payment .payment-input {
+        height: 70vh !important;
+        font-size: 120% !important;
+    }
+
+    .payment .input {
+        font-size: 140% !important;
+    }
+
+    .payment .calculator {
+        font-size: 130% !important;
+    }
+
+    .payment .del-enter {
+        font-size: 75% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 11.5vh !important;
+    }
+
+    .transaction .product {
+        height: 8   0vh !important;
+    }
+
+    .transaction .product thead {
+        font-size: 115% !important;
+    }
+
+    .transaction .product tbody {
+        font-size: 110% !important;
+    }
+
+    .transaction .payment-details select {
+        padding-top: 2.8% !important;
+        padding-bottom: 2.8% !important;
+        font-size: 100% !important;
+    }
+
+    .transaction .total .title {
+        font-size: 180% !important;
+        margin-top: 1% !important;
+    }
+
+    .transaction .total .price {
+        font-size: 210% !important;
+    }
+
+    .transaction .paid-change {
+        font-size: 110% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .transaction button,
+    .transaction a {
+        font-size: 100% !important;
+        padding-top: 3% !important;
+        padding-bottom: 3% !important;
+    }
+}
+
+/* Asus Z Fold */
+@media screen and (width: 853px) and (height: 1280px) {
+    .payment .payment-input .cards-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 100vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 100% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 100% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: 3% !important;
+        row-gap: 7% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 5% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 100% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 100% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 10vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 11.2vh !important;
+        margin-top: 9% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        right: .5rem !important;
+        padding-top: 3.2% !important;
+        padding-bottom: 3.2% !important;
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-top: 0% !important;
+        padding-bottom: 2% !important;
+    }
+}
+
+/* Samsung Galaxy A51/71 */
+@media screen and (width: 412px) and (height: 914px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 34vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 4% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        margin-top: .8% !important;
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 4% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 7.8vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 8vh !important;
+        margin-top: 3% !important;
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .apply {
+        padding-top: 3% !important;
+        padding-bottom: 2.5% !important;
+        right: .5rem !important
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        padding-bottom: 4% !important;
+    }
+}
+
+/* Nest Hub */
+@media screen and (width: 1024px) and (height: 600px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input {
+        height: 50vh !important;
+    }
+    
+    .payment .payment-input .cards-container {
+        row-gap: 8% !important;
+    }
+
+    .payment .payment-input button {
+        font-size: 85% !important;
+    }
+
+    .payment form {
+        height: 100vh !important;
+    }
+
+    .payment form .cal-input {
+        font-size: 85% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .number {
+        /* margin-top: .8% !important; */
+        row-gap: 6% !important;
+    }
+    
+    .payment .calculator-content {
+        gap: 4% !important;
+    }
+    
+    .payment .calculator .number,
+    .payment .calculator .number-b {
+        font-size: 80% !important;
+    }
+    
+    .payment .calculator .del-enter .del p,
+    .payment .calculator .del-enter .card p {
+        font-size: 90% !important;
+    }
+
+    .payment .calculator .number-b {
+        height: 13vh !important;
+    }
+
+
+    .payment .del-enter {
+        row-gap: 4.5% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 12.8vh !important;
+        /* margin-top: 3% !important; */
+    }
+
+    /* PAYMENT / TRANSACTION */
+    .payment .transaction .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .transaction .apply {
+        margin-top: -1% !important;
+        padding-top: 2.6% !important;
+        padding-bottom: 2.6% !important;
+    }
+
+    .payment .transaction .promo-payment hr {
+        margin-top: -5% !important;
+        margin-bottom: -1% !important;
+    }
+
+    /* Total Payment */
+    .payment .transaction .total .title {
+        font-size: 130% !important;
+        margin-top: -6% !important;
+    }
+
+    .payment .transaction .total-payment hr {
+        margin-top: 3% !important;
+        margin-bottom: 10% !important;
+    }
+    
+    .payment .transaction .total .price {
+        font-size: 130% !important;
+        margin-top: -13% !important;
+    }
+
+    .payment .transaction .paid-change {
+        font-size: 105% !important;
+        line-height: -100% !important;
+    }
+
+    .payment .transaction .paid-amount {
+        margin-bottom: -3%;
+    }
+
+    .payment .transaction .paid-change .number {
+        font-size: 130% !important;
+    }
+
+    .payment #paymentButton {
+        padding-top: 2.5% !important;
+        padding-bottom: 2.5% !important;
+    }
+
+    .payment .payment-btn {
+        font-size: 100% !important;
+        margin-top: -10% !important;
+        /* padding-top: -50% !important; */
+        margin-bottom: 10% !important;
+    }
+}
+
+/* Nest Hub */
+@media screen and (width: 1280px) and (height: 800px) {
+    
+    /* INPUT PRICE */
+    .payment .payment-input .cards-container {
+        font-size: 160% !important;
+    }
+
+    /* CALCULATOR */
+    .payment .calculator .calculator-content {
+        font-size: 110% !important;
+    }
+
+    .payment .calculator form {
+        font-size: 100% !important;
+    }
+
+    .payment .calculator .calculator-content {
+        row-gap: 4.1% !important;
+    }
+
+    .payment .calculator .number {
+        row-gap: 5% !important;
+    }
+
+    .payment .calculator .del-enter {
+        font-size: 80% !important;
+        row-gap: 4.1% !important;
+    }
+
+    .payment .del-enter .del {
+        height: 13.7vh !important;
+    }
+
+    /* Transaction */
+    .payment .transaction {
+        width: 100% !important;
+    }  
+
+    /* View Order */
+    .payment .transaction .view-order {
+        font-size: 110% !important;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-top: 1.3% !important;
+        padding-bottom: 1.3% !important;
+    }
+
+    .payment .transaction form {
+        gap: 30px !important;
+    }
+
+    .payment .promo-payment {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .payment .promo-payment label {
+        font-size: 120% !important;
+    }
+
+    .promo-payment input,
+    .promo-payment select {
+        padding-top: 3.4% !important;
+        padding-bottom: 3.4% !important;
+        font-size: 120% !important;
+    }  
+
+    .promo-payment select {
+        font-size: 110% !important;
+        /* margin-top: -4% !important; */
+    }  
+    
+    .promo-payment .promo-discount button {
+        padding-top: 2.2% !important;
+        padding-bottom: 2.2% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+        right: 1.8% !important;
+        font-size: 110% !important;
+    }
+
+    .promo-payment hr {
+        /* display: none !important; */
+        margin-top: -2% !important;
+        margin-bottom: -2% !important;
+    }
+
+    .total-payment .total .title {
+        font-size: 140% !important;
+        margin-bottom: -4% !important;
+    }
+
+    .total-payment .total .price {
+        font-size: 210% !important;
+        /* margin-bottom: -2% !important; */
+    }
+
+    .total-payment .paid-change {
+        margin-top: -3% !important;
+        font-size: 115% !important;
+    }
+
+    .transaction .payment-btn {
+        padding-top: 4% !important;
+        padding-bottom: 4% !important;
+    }
+
+    .transaction .payment-btn button,
+    .transaction .payment-btn a {
+        padding: 3% !important;
+        font-size: 90% !important;
+    }
+}
