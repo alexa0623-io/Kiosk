@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/datatable/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="/datatable/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/datatable/css/responsive.dataTables.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
+</head>
+<body class="bg-gray-200">
+    <div class="w-[100%] h-[100vh]">
+        <div class="flex flex-col xl:flex-row p-6 lg:p-10 2xl:p-12 gap-4 xl:gap-6 2xl:gap-10">
+            <div class="w-full md:w-[45%] lg:w-[35%] xl:w-[14%] 2xl:w-[12%] h-full flex xl:flex-col md:text-md lg:text-[15px] xl:text-lg 2xl:text-xl font-medium uppercase tracking-[2px] text-center gap-4 xl:gap-6 2xl:gap-10">
+                <a href="/index.html" class="w-full text-[#5e5e5e] hover:text-white bg-white hover:bg-red-500 border-1 border-gray-500 rounded-md shadow py-3 md:py-4 xl:py-12 2xl:py-16">Start</a>
+                <a href="" class="w-full text-[#5e5e5e] hover:text-white bg-white hover:bg-red-500 border-1 border-gray-500 rounded-md shadow py-3 md:py-4 xl:py-12 2xl:py-16">Report</a>
+            </div>
+            
+            <div class="w-full h-full"> 
+                <div class="w-full h-[auto] xl:h-[90vh] border-1 border-gray-500 shadow rounded-t-lg bg-white">
+                    <div class="h-full flex flex-col justify-between tracking-[1px]">
+                        <div class="h-full flex flex-col gap-4 xl:gap-6.5 2xl:gap-6 p-7 lg:p-8 2xl:p-10 2xl:py-8">
+                            <!-- TITLE -->
+                            <div class="flex items-center text-lg xl:text-xl 2xl:text-2xl text-[#DA3232] font-medium gap-3">
+                                <i class="fa-regular fa-calendar"></i>
+                                <p class="mt-.1 uppercase font-bold">Daily Transactions</p>
+                            </div>
+                            <div class="inter w-full xl:max-h-[72vh] xl:overflow-y-auto">
+                                <table id="example" class="text-sm lg:text-[14px] xl:text-[15px] 2xl:text-lg text-left tracking-[1px]">
+                                    <thead class="poppins text-[#35383e] bg-[#f9fafb]">
+                                        <tr class="uppercase border-b border-gray-200">
+                                            <th class="">Time</th>
+                                            <th class="">Order ID</th>
+                                            <th class="">Items</th>
+                                            <th class="">Total</th>
+                                            <th class="whitespace-nowrap">Payment Method</th>
+                                            <th class="">Status</th>
+                                        </tr>
+                                    </thead>                                                                                                                                        
+                                    <tbody class=" text-[#4d515a]">
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="whitespace-nowrap">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-5">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                        <tr class="py-[10%] border-b border-gray-50">
+                                            <td class="">2:21 PM</td>
+                                            <td class="">#A1008</td>
+                                            <td class="">1 Burger Steak Meal, 1 Iced Tea</td>
+                                            <td class="text-[#DA3232]">₱150.00</td>
+                                            <td class="">GCash</td>
+                                            <td class="">Completed</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    
+                        <!-- TOTAL -->
+                        <div class="inter w-full text-white bg-[#DA3232] rounded-b-lg p-10 py-4">
+                            <div class="flex flex-col md:flex-row justify-center text-sm lg:text-[14px] xl:text-[15px] 2xl:text-lg uppercase gap-5 lg:gap-10">
+                                <div class="flex justify-center gap-10 md:gap-5 lg:gap-10">
+                                    <div class="flex gap-1 xl:gap-3">
+                                        <p class="font-medium">Total Transactions:</p>
+                                        <button>9</button>
+                                    </div>
+                                    <div class="flex gap-1 xl:gap-3">
+                                        <p class="font-medium">Total Sales:</p>
+                                        <button>₱1,585.00</button>
+                                    </div>
+                                </div>
+                                <div class="flex justify-center gap-10 md:gap-5 lg:gap-10">
+                                    <div class="flex gap-1 xl:gap-3">
+                                        <p class="font-medium">Cash Payments:</p>
+                                        <button>₱875.00</button>
+                                    </div>
+                                    <div class="flex gap-1 xl:gap-3">
+                                        <p class="font-medium">GCash Payments:</p>
+                                        <button>₱710.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="w-full text-white bg-[#DA3232] rounded-b-lg p-10 py-4">
+                            <div class="flex flex-col md:flex-row justify-between xl:justify-center text-xs md:text-sm 2xl:text-lg uppercase gap-2 md:gap-10 lg:gap-0 xl:gap-12 2xl:gap-24">
+                                <div class="flex gap-1 lg:gap-3">
+                                    <p class="font-medium">Total Transactions:</p>
+                                    <button>9</button>
+                                </div>
+                                <div class="flex gap-1 lg:gap-3">
+                                    <p class="font-medium">Total Sales:</p>
+                                    <button>₱1,585.00</button>
+                                </div>
+                                    
+                                <div class="flex gap-1 lg:gap-3">
+                                    <p class="font-medium">Cash Payments:</p>
+                                    <button>₱875.00</button>
+                                </div>
+                                <div class="flex gap-1 lg:gap-3">
+                                    <p class="font-medium">GCash Payments:</p>
+                                    <button>₱710.00</button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="/datatable/js/dataTables.buttons.min.js"></script>
+    <script src="/datatable/js/buttons.html5.min.js"></script>
+    <script src="/datatable/js/buttons.print.min.js"></script>
+    <script src="/datatable/js/dataTables.responsive.min.js"></script>
+    <script src="/datatable/js/pdfmake.min.js"></script>
+    <script src="/datatable/js/vfs_fonts.js"></script>
+    <script src="/datatable/js/jszip.min.js"></script>
+
+
+    <script>
+        $(function() {
+            var table = $('#example').DataTable({
+                responsive: true,
+                searching: false,
+                paging: false,
+                info: false
+            });
+        });
+    </script>
+
+</html>
